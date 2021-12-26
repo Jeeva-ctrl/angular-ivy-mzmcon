@@ -1,0 +1,10 @@
+<div>I am counter</div>
+
+<div class="container">
+  <button (click)="onIncrement()">Increment</button>
+  <div>Current Count : {{ counter$ | async }}</div>
+  <div>
+    <button (click)="onDecrement()">Decrement</button>
+    <button (click)="onReset()">Reset Count </button>
+  </div>
+</div>
